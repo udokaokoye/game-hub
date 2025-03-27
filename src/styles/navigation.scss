@@ -1,0 +1,32 @@
+.navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        background-image: url('./logo.jpeg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+    }
+
+    .links {
+        display: flex;
+        gap: 35px;
+
+        span {
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

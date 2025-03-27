@@ -1,0 +1,29 @@
+.navigationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto;
+}
+.navigationContainer .logo {
+  width: 80px;
+  height: 80px;
+  background-image: url("./logo.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.navigationContainer .links {
+  display: flex;
+  gap: 35px;
+}
+.navigationContainer .links span {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navigationContainer .links span:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=navigation.css.map */
